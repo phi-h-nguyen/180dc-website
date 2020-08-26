@@ -18,6 +18,14 @@ body {
     height: 100vh;
 }
 
+.lighten {
+    background: rgba(255, 255, 255, .3);
+}
+
+.darken {
+    background: rgba(0, 0, 0, .3);
+}
+
 .masthead .intro-text {
     padding-top: 250px;
     padding-bottom: 250px;
