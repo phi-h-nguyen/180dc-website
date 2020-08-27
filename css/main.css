@@ -2,8 +2,7 @@ section {
     padding: 100px 0;
 }
 
-html,
-body {
+html, body {
     overflow-x: hidden;
 }
 
@@ -17,13 +16,23 @@ body {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2) !important
 }
 
+h1, h2 {
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+p, li {
+    font-family: 'Asap', sans-serif;
+}
 
 .branded {
     color: rgb(115, 183, 68);
     font-weight: bold;
 }
 
-/* Masthead */ 
+/* Masthead */
+
 .masthead {
     text-align: center;
     height: 100vh;
@@ -43,7 +52,7 @@ body {
 }
 
 .masthead .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Asap', sans-serif;
     font-size: 22px;
     line-height: 40px;
     margin-bottom: 40px;
@@ -51,16 +60,13 @@ body {
 }
 
 .masthead .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: open-sans, sans-serif;
     font-weight: 700;
     font-size: 75px;
     line-height: 75px;
     margin-bottom: 20px;
     color: #fff;
 }
-
-
-
 
 /* Navigation Styling*/
 
@@ -155,7 +161,6 @@ nav {
     display: none;
 }
 
-
 /* Highlight */
 
 ::selection {
@@ -249,7 +254,7 @@ img::-webkit-selection {
     }
 }
 
-@media (min-width: 992px)  {
+@media (min-width: 992px) {
     .text-left-not-md, .text-center-not-md, .text-right-not-md, .text-justify-not-md {
         text-align: inherit;
     }
