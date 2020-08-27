@@ -6,6 +6,11 @@ html, body {
     overflow-x: hidden;
 }
 
+#contrast {
+    background-color: rgb(115, 183, 68);
+    color: #fff;
+}
+
 .hoverable {
     transition: .3s;
 }
@@ -31,12 +36,15 @@ p, li {
     font-weight: bold;
 }
 
-/* Masthead */
-
-.masthead {
-    text-align: center;
-    height: 100vh;
+a {
+    color: rgb(115, 183, 68);
 }
+
+a:hover {
+    color: rgb(4, 150, 72);
+}
+
+/* Masthead and Intro */
 
 .lighten {
     background: rgba(255, 255, 255, .3);
@@ -46,12 +54,25 @@ p, li {
     background: rgba(0, 0, 0, .3);
 }
 
-.masthead .intro-text {
-    padding-top: 250px;
-    padding-bottom: 250px;
+.intro {
+    height: 60vh;
+    text-align: center;
 }
 
-.masthead .intro-text .intro-lead-in {
+.intro .intro-text {
+    padding-top: 25vh;
+}
+
+.masthead {
+    text-align: center;
+    height: 100vh;
+}
+
+.masthead .intro-text {
+    padding-top: 40vh;
+}
+
+.masthead .intro-text .intro-lead-in, .intro .intro-text .intro-lead-in {
     font-family: 'Asap', sans-serif;
     font-size: 22px;
     line-height: 40px;
@@ -59,7 +80,7 @@ p, li {
     color: #fff;
 }
 
-.masthead .intro-text .intro-heading {
+.masthead .intro-text .intro-heading, .intro .intro-text .intro-heading {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700;
     font-size: 75px;
