@@ -109,6 +109,44 @@ nav {
 
 /* Nav */
 
+nav {
+    z-index: 100;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: auto 0;
+    font-weight: 500;
+    transition: .3s;
+    margin: .2em 1em 0 1em;
+}
+
+nav .nav-link:hover {
+    color: #aaa;
+    transition: .3s;
+}
+
+.navbar-toggler {
+    color: white;
+    transition: .3s;
+}
+
+.navbar-toggler:hover, .navbar-toggler:active{
+    color: #aaa;
+    transition: .3s;
+}
+
+@media (max-width: 767px) {
+    nav a {
+        margin: .2rem;
+        z-index: 100;
+    }
+}
+
 #nav {
     position: absolute;
     top: 0;
@@ -123,7 +161,6 @@ nav {
 .navbar-nav {
     line-height: 0px;
     position: relative;
-    display: inline-block;
     margin: 0;
     height: 21px;
     border-left: solid 1px rgba(255, 255, 255, 0.35);
@@ -150,6 +187,8 @@ nav {
     right: 100%;
 }
 
+
+/*
 .navbar-nav>li {
     display: inline-block;
     margin: -9px 0.5em 0 0.5em;
@@ -181,6 +220,7 @@ nav {
 .navbar-nav>li>ul {
     display: none;
 }
+*/
 
 /* Highlight */
 
