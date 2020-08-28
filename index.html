@@ -23,7 +23,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Asap&family=IBM+Plex+Sans&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=IBM+Plex+Sans&family=Open+Sans&display=swap"
+        rel="stylesheet">
 
     <!-- JS, Popper.js, jQuery, and FontAwesome -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -45,15 +46,51 @@
             background-color: rgb(115, 183, 68);
             color: #fff;
         }
+
         .logo {
             max-width: 120px;
             margin: 5px;
         }
 
-        .navbar-toggler{
+        .navbar-toggler {
             color: #fff
         }
 
+        .workButton {
+            background-color: #fff;
+            color: rgb(115, 183, 68);
+            border: 2px solid rgb(115, 183, 68);
+            padding: 5px 15px;
+            margin: 5px;
+            font-size: 18px;
+            transition: .3s;
+
+        }
+
+        .workButton:hover {
+            background-color: rgb(115, 183, 68);
+            border: 2px solid #fff;
+            color: #fff;
+            transition: .3s;
+        }
+
+        .recruitButton {
+            background-color: rgb(115, 183, 68);
+            color: #fff;
+            border: 2px solid rgb(115, 183, 68);
+            padding: 5px 15px;
+            margin: 5px;
+            font-size: 18px;
+            transition: .3s;
+
+        }
+
+        .recruitButton:hover {
+            background-color: #fff;
+            border: 2px solid rgb(115, 183, 68);
+            color: rgb(115, 183, 68);
+            transition: .3s;
+        }
     </style>
 
 </head>
@@ -76,7 +113,8 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="people.html">Our People</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="work.html">Our Work</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="recruitment.html">Recruitment</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="recruitment.html">Recruitment</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -117,7 +155,8 @@
                     <p>
                         Globally, <span class="branded">180 Degrees Consulting</span> is the world’s largest student
                         consultancy. With 200+ branches
-                        around the world, we further social good by strategizing <span class="branded">innovative solutions</span> for the social
+                        around the world, we further social good by strategizing <span class="branded">innovative
+                            solutions</span> for the social
                         sector.
                     </p>
                     <p>
@@ -165,20 +204,24 @@
     <div class="row">
         <div class="col-md-6 p-0 m-0" data-aos="fade-right">
             <section id="contrast" class="my-0 py-5 mx-5 ml-md-5 mr-md-0">
-                <div class="container text-center ">
+                <div class="container text-center justify-content-center">
                     <h1>Where we go</h1>
                     <img class="logo" src="assets/accenturelogo.png">
                     <img class="logo" src="assets/bcglogo.png">
                     <img class="logo" src="assets/eylogo.png">
                     <img class="logo" src="assets/pwclogo.png">
+                    <img class="logo" src="assets/caponelogo.png">
                 </div>
             </section>
         </div>
         <div class="col-md-6 p-0 m-0" data-aos="fade-left">
-            <section  class="my-0 py-5 mx-5 mr-md-5 ml-md-0">
+            <section class="my-0 py-5 mx-5 mr-md-5 ml-md-0">
                 <div class="container text-center">
                     <h1>Our Sponsors</h1>
-                    <img class="logo" src="assets/accenturelogo.png">
+                    <div class="">
+                        <img class="logo" src="assets/accenturelogo.png">
+                        <p>Silver Level</p>
+                    </div>
                 </div>
             </section>
         </div>
@@ -189,15 +232,22 @@
             <section class="my-0 py-5 mx-5 ml-md-5 mr-md-0">
                 <div class="container text-center">
                     <h1>Join our team</h1>
-
+                    <a href="recruitment.html">
+                        <button class="recruitButton">Learn about our Recruitment</button>
+                    </a>
                 </div>
-                </section>
+            </section>
         </div>
         <div class="col-md-6 p-0" data-aos="fade-left">
-            <section  id="contrast" class="my-0 py-5 mx-5 mr-md-5 ml-md-0">
+            <section id="contrast" class="my-0 py-5 mx-5 mr-md-5 ml-md-0">
                 <div class="container text-center">
-                    <h1>Become a Client</h1>
-
+                    <h1>Work With Us</h1>
+                    <div class="row justify-content-center">
+                        <a href="assets/180 DC Sponsorship Guide.pdf" target="_blank">
+                            <button class="workButton">Sponsorship Guide</button>
+                        </a>
+                        <button class="workButton">Become a Client</button>
+                    </div>
                 </div>
             </section>
         </div>
