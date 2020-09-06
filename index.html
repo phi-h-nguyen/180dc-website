@@ -91,6 +91,11 @@
             color: rgb(115, 183, 68);
             transition: .3s;
         }
+
+        i {
+            width: 30px;
+            margin-top: 1rem;
+        }
     </style>
 
 </head>
@@ -110,10 +115,10 @@
             </a>
             <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
                 <div class="navbar-nav">
-                        <a class="nav-link" href="#">Home</a>
-                        <a class="nav-link" href="people.html">Our People</a>
-                        <a class="nav-link" href="work.html">Our Work</a>
-                        <a class="nav-link" href="recruitment.html">Recruitment</a>
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="people.html">Our People</a>
+                    <a class="nav-link" href="work.html">Our Work</a>
+                    <a class="nav-link" href="recruitment.html">Recruitment</a>
                 </div>
             </div>
         </nav>
@@ -148,8 +153,6 @@
                     </p>
                 </div>
             </div>
-
-
         </div>
     </section>
 
@@ -238,7 +241,20 @@
     <section>
         <div class="container text-center">
             <h1>Get in touch!</h1>
-
+            <div class="justify-content-center">
+                <a href="mailto:cmu180dc@gmail.com" target="_blank" rel="noopener" data-toggle="tooltip"
+                    data-placement="bottom" title="cmu180dc@gmail.com">
+                    <i class="fa fa-envelope fa-2x m-2" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.facebook.com/cmu180dc" target="_blank" rel="noopener" data-toggle="tooltip"
+                    data-placement="bottom" title="Facebook">
+                    <i class="fa fa-facebook-square fa-2x m-2" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/cmu180dc/" target="_blank" rel="noopener" data-toggle="tooltip"
+                    data-placement="bottom" title="@cmu180dc">
+                    <i class="fa fa-instagram fa-2x m-2" aria-hidden="true"></i>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -247,11 +263,18 @@
         <p class="text-center">
             &copy 180 Degrees Consulting
         </p>
+
+        </a>
     </footer>
     <!--
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="js/scripts.js"></script>
         -->
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 
 </body>
 
