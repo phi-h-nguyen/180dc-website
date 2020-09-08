@@ -44,6 +44,19 @@ a:hover {
     color: rgb(4, 150, 72);
 }
 
+/* Hover Effect */
+
+.hoverable {
+    transition: .3s;
+}
+
+.hoverable:hover {
+    transition: .3s;
+    opacity: 0.8;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2)!important
+}
+ 
+
 /* Masthead and Intro */
 
 .lighten {

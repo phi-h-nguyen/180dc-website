@@ -82,7 +82,6 @@
             margin: 5px;
             font-size: 18px;
             transition: .3s;
-
         }
 
         .recruitButton:hover {
@@ -96,6 +95,29 @@
             width: 30px;
             margin-top: 1rem;
         }
+
+        .pres {
+            background: url("assets/pres.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+            height: 750px
+        }
+
+        @media (max-width: 768px) {
+            .pres {
+                height: 400px;
+            }
+        }
+
+        .welcome p {
+            font-size: 14px;
+        }
+
     </style>
 
 </head>
@@ -161,41 +183,52 @@
         <div class="container-fluid text-left m-0 p-0">
             <div class="row m-0">
                 <div class="col-md-6 align-self-center m-0 p-0">
-                    <img src="assets/pres.jpg" width=100% class="d-block m-0">
+                    <img src="assets/pres1.jpg" width=100% class="d-block m-0">
                 </div>
-                <div id="contrast" class="col-md-6 align-self-center px-5 py-3" data-aos="fade-left">
-                    <h2 class="mb-2">Welcome.</h2>
+                <div id="contrast" class="welcome col-md-6 align-self-center px-5 py-3" data-aos="fade-left">
+                    <h4 class="mb-3">Welcome.</h4>
                     <p class="align-self-center">
-                        Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere
-                        accumsan massa posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla
-                        convallis ut venenatis purus sit arcu sociis. Nunc fermentum adipiscing tempor cursus nascetur
-                        adipiscing adipiscing. Primis aliquam mus lacinia lobortis phasellus suscipit. Fermentum
-                        lobortis non tristique ante proin sociis accumsan lobortis. Auctor etiam porttitor phasellus
-                        tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum integer purus
-                        sapien. Nibh eleifend nulla nascetur pharetra commodo mi augue interdum tellus. Ornare cursus
-                        augue feugiat sodales velit lorem. Semper elementum ullamcorper lacinia natoque aenean
-                        scelerisque.
+                        Welcome to 180 Degrees Consulting at Carnegie Mellon! Whether you are a passionate student
+                        considering joining us, a potential client excited in what we offer, or a prospective partner
+                        interested in our talent, I want to thank you for visiting our site!
+                        180 Degrees Consulting is a student-run consultancy for nonprofits and socially-minded
+                        companies, but especially at Carnegie Mellon, we are a young, growing organization with our
+                        people being our single most valuable asset.
                     </p>
-                    <h5>Sincerely,</h5>
-                    <h5>Nadia Susanto</h5>
+                    <p class="align-self-center">
+                        We have talented students majoring in business, artificial intelligence, engineering, computer
+                        science, and more. Although we have different career aspirations, academic backgrounds, and
+                        diverse life experiences, we were all ultimately driven to 180 Degrees Consulting because of our
+                        unified passion for social impact.
+                    </p>
+                    <p class="align-self-center">
+                        180 Degrees Consulting at Carnegie Mellon was just established in 2019, but I am very proud to
+                        have seen the rapid growth we have been able to achieve in this short time frame from our
+                        impactful projects to our various corporate events.
+                    </p>
+                    <p class="align-self-center">
+                        I have been blessed to be able to bring 180 Degrees Consulting to the Carnegie Mellon community,
+                        and it has truly been one of the most valuable and rewarding experiences I have had during my
+                        time here. I am so excited to share our community with you, and we look forward to meeting you!
+                    </p>
+                    <h6>Sincerely,</h6>
+                    <img src="assets/signature.png" width="30%">
+                    <h6>Nadia Susanto, President</h6>
                 </div>
             </div>
         </div>
     </section>
-
     <br>
-
-
     <div class="row">
         <div class="col-md-6 p-0 m-0" data-aos="fade-right">
             <section id="contrast" class="my-0 py-5 mx-5 ml-md-5 mr-md-0">
                 <div class="container text-center justify-content-center">
                     <h1>Where we go</h1>
-                    <img class="logo" src="assets/accenturelogo.png">
-                    <img class="logo" src="assets/bcglogo.png">
-                    <img class="logo" src="assets/eylogo.png">
-                    <img class="logo" src="assets/pwclogo.png">
-                    <img class="logo" src="assets/caponelogo.png">
+                    <img class="logo p-4" src="assets/logos/applelogo.png">
+                    <img class="logo" src="assets/logos/boalogo.png">
+                    <img class="logo" src="assets/logos/bridgewaterlogo.png">
+                    <img class="logo" src="assets/logos/cantorfitzgeraldlogo.png">
+                    <img class="logo" src="assets/logos/googlelogo.png">
                 </div>
             </section>
         </div>
