@@ -52,6 +52,11 @@
             margin: 5px;
         }
 
+        .sponsor {
+            max-width: 200px;
+            margin: 5px;
+        }
+
         .navbar-toggler {
             color: #fff
         }
@@ -117,6 +122,7 @@
         .welcome p {
             font-size: 14px;
         }
+
     </style>
 
 </head>
@@ -129,7 +135,22 @@
 
     <!-- Masthead -->
     <header class="parallax-window masthead" data-parallax="scroll" data-image-src="assets/masthead3.jpg">
-        <nav id="nav" class="navbar navbar-expand-sm justify-content-center">
+            <div class="onMobile row justify-content-center justify-content-md-end text-center">
+                <nav class="navigation navbar navbar-expand-lg navbar-dark justify-content-center" id="nav">
+                    <a id="tog" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"
+                        onClick="toggleFooter()">Menu
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <a class="nav-link p-1" href="#">Home</a>
+                        <a class="nav-link p-1" href="people.html">Our People</a>
+                        <a class="nav-link p-1" href="work.html">Our Work</a>
+                        <a class="nav-link p-1" href="recruitment.html">Recruitment</a>
+                    </div>
+                </nav>
+            </div>
+        
+        <nav id="nav" class="onDesktop navbar navbar-expand-sm justify-content-center">
             <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"
                 onClick="toggleFooter()">Menu
@@ -143,6 +164,7 @@
                 </div>
             </div>
         </nav>
+
         <div class="intro-text align-self-center" data-aos="fade-up">
             <div class="intro-heading">180 Degrees Consulting</div>
             <div class="intro-lead-in">at Carnegie Mellon University</div>
@@ -221,13 +243,17 @@
     <div class="row">
         <div class="col-md-6 p-0 m-0" data-aos="fade-right">
             <section id="contrast" class="my-0 py-5 mx-5 ml-md-5 mr-md-0">
-                <div class="container text-center justify-content-center">
+                <div class="container text-center justify-content-center align-self-center">
                     <h1>Where we go</h1>
-                    <img class="logo p-4" src="assets/logos/applelogo.png">
-                    <img class="logo" src="assets/logos/boalogo.png">
-                    <img class="logo" src="assets/logos/bridgewaterlogo.png">
-                    <img class="logo" src="assets/logos/cantorfitzgeraldlogo.png">
-                    <img class="logo" src="assets/logos/googlelogo.png">
+                    <img class="logo m-2" src="assets/logos/accenturelogo.png">
+                    <img class="logo m-2" src="assets/logos/eylogo.png">
+                    <img class="logo m-2" src="assets/logos/googlelogo.png">
+                    <img class="logo m-2 p-4" src="assets/logos/applelogo.png">
+                    <img class="logo m-2" src="assets/logos/boalogo.png">
+                    <img class="logo m-2" src="assets/logos/bridgewaterlogo.png">
+                    <img class="logo m-2" src="assets/logos/cantorfitzgeraldlogo.png">
+                    <img class="logo m-2" src="assets/logos/caponelogo.png">
+                    <img class="logo m-2" src="assets/logos/pwclogo.png">
                 </div>
             </section>
         </div>
@@ -236,7 +262,7 @@
                 <div class="container text-center">
                     <h1>Our Sponsors</h1>
                     <div class="">
-                        <img class="logo" src="assets/accenturelogo.png">
+                        <img class="sponsor" src="assets/logos/accenturelogo.png">
                         <p>Silver Level</p>
                     </div>
                 </div>
@@ -287,6 +313,9 @@
                     <i class="fa fa-instagram fa-2x m-2" aria-hidden="true"></i>
                 </a>
             </div>
+            <a href="https://lists.andrew.cmu.edu/mailman/listinfo/180dc-dlist" target="_blank">
+                <button class="recruitButton px-5">Join our Mailing List</button>
+            </a>
         </div>
     </section>
 
