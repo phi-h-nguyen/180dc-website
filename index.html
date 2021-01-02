@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-<head>
+  <head>
     <!-- Meta -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>180 Degrees Consulting - CMU</title>
     <meta name="description" content="180 Degrees Consulting - CMU" />
     <link rel="shortcut icon" href="assets/logo.png" />
@@ -23,325 +25,392 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Asap&family=IBM+Plex+Sans&family=Open+Sans&display=swap"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap&family=IBM+Plex+Sans&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- JS, Popper.js, jQuery, and FontAwesome -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/9469a27cf9.js"></script>
     <script src="vendor/aos/aos.js"></script>
     <script src="vendor/parallax/parallax.min.js"></script>
 
     <style>
-        #contrast {
-            background-color: rgb(115, 183, 68);
-            color: #fff;
-        }
+      #contrast {
+        background-color: rgb(115, 183, 68);
+        color: #fff;
+      }
 
-        .logo {
-            max-width: 120px;
-            margin: 5px;
-        }
+      .logo {
+        max-width: 120px;
+        margin: 5px;
+      }
 
-        .sponsor {
-            max-width: 200px;
-            margin: 5px;
-        }
+      .sponsor {
+        max-width: 200px;
+        margin: 5px;
+      }
 
-        .navbar-toggler {
-            color: #fff
-        }
+      .navbar-toggler {
+        color: #fff;
+      }
 
-        .workButton {
-            background-color: #fff;
-            color: rgb(115, 183, 68);
-            border: 2px solid rgb(115, 183, 68);
-            padding: 5px 15px;
-            margin: 5px;
-            font-size: 18px;
-            transition: .3s;
+      .workButton {
+        background-color: #fff;
+        color: rgb(115, 183, 68);
+        border: 2px solid rgb(115, 183, 68);
+        padding: 5px 15px;
+        margin: 5px;
+        font-size: 18px;
+        transition: 0.3s;
+      }
 
-        }
+      .workButton:hover {
+        background-color: rgb(115, 183, 68);
+        border: 2px solid #fff;
+        color: #fff;
+        transition: 0.3s;
+      }
 
-        .workButton:hover {
-            background-color: rgb(115, 183, 68);
-            border: 2px solid #fff;
-            color: #fff;
-            transition: .3s;
-        }
+      .recruitButton {
+        background-color: rgb(115, 183, 68);
+        color: #fff;
+        border: 2px solid rgb(115, 183, 68);
+        padding: 5px 15px;
+        margin: 5px;
+        font-size: 18px;
+        transition: 0.3s;
+      }
 
-        .recruitButton {
-            background-color: rgb(115, 183, 68);
-            color: #fff;
-            border: 2px solid rgb(115, 183, 68);
-            padding: 5px 15px;
-            margin: 5px;
-            font-size: 18px;
-            transition: .3s;
-        }
+      .recruitButton:hover {
+        background-color: #fff;
+        border: 2px solid rgb(115, 183, 68);
+        color: rgb(115, 183, 68);
+        transition: 0.3s;
+      }
 
-        .recruitButton:hover {
-            background-color: #fff;
-            border: 2px solid rgb(115, 183, 68);
-            color: rgb(115, 183, 68);
-            transition: .3s;
-        }
+      i {
+        width: 30px;
+        margin-top: 1rem;
+      }
 
-        i {
-            width: 30px;
-            margin-top: 1rem;
-        }
+      .pres {
+        background: url("assets/pres.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        height: 750px;
+      }
 
+      @media (max-width: 768px) {
         .pres {
-            background: url("assets/pres.jpg");
-            background-repeat: no-repeat;
-            background-attachment: scroll;
-            background-position: center center;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            background-size: cover;
-            -o-background-size: cover;
-            height: 750px
+          height: 400px;
         }
+      }
 
-        @media (max-width: 768px) {
-            .pres {
-                height: 400px;
-            }
-        }
-
-        .welcome p {
-            font-size: 14px;
-        }
-
+      .welcome p {
+        font-size: 14px;
+      }
     </style>
+  </head>
 
-</head>
-
-<body id="page-top" class="index">
+  <body id="page-top" class="index">
     <script>
-        AOS.init();
+      AOS.init();
     </script>
 
-
     <!-- Masthead -->
-    <header class="parallax-window masthead" data-parallax="scroll" data-image-src="assets/masthead3.jpg">
-        <div class="onMobile row justify-content-center justify-content-md-end text-center">
-            <nav class="navigation navbar navbar-expand-lg navbar-dark justify-content-center" id="nav">
-                <a id="tog" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"
-                    onClick="toggleFooter()">Menu
-                </a>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <a class="nav-link p-1" href="#">Home</a>
-                    <a class="nav-link p-1" href="people.html">Our People</a>
-                    <a class="nav-link p-1" href="work.html">Our Work</a>
-                    <a class="nav-link p-1" href="recruitment.html">Recruitment</a>
-                </div>
-            </nav>
-        </div>
-
-        <nav id="nav" class="onDesktop navbar navbar-expand-sm justify-content-center">
-            <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"
-                onClick="toggleFooter()">Menu
-            </a>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="people.html">Our People</a>
-                    <a class="nav-link" href="work.html">Our Work</a>
-                    <a class="nav-link" href="recruitment.html">Recruitment</a>
-                </div>
-            </div>
+    <header
+      class="parallax-window masthead"
+      data-parallax="scroll"
+      data-image-src="assets/masthead3.jpg"
+    >
+      <div
+        class="onMobile row justify-content-center justify-content-md-end text-center"
+      >
+        <nav
+          class="navigation navbar navbar-expand-lg navbar-dark justify-content-center"
+          id="nav"
+        >
+          <a
+            id="tog"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            onClick="toggleFooter()"
+            >Menu
+          </a>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <a class="nav-link p-1" href="#">Home</a>
+            <a class="nav-link p-1" href="people.html">Our People</a>
+            <a class="nav-link p-1" href="work.html">Our Work</a>
+            <a class="nav-link p-1" href="recruitment.html">Recruitment</a>
+          </div>
         </nav>
+      </div>
 
-        <div class="intro-text align-self-center" data-aos="fade-up">
-            <div class="intro-heading">180 Degrees Consulting</div>
-            <div class="intro-lead-in">at Carnegie Mellon University</div>
+      <nav
+        id="nav"
+        class="onDesktop navbar navbar-expand-sm justify-content-center"
+      >
+        <a
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onClick="toggleFooter()"
+          >Menu
+        </a>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarCollapse"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="people.html">Our People</a>
+            <a class="nav-link" href="work.html">Our Work</a>
+            <a class="nav-link" href="recruitment.html">Recruitment</a>
+          </div>
         </div>
-    </header>
+      </nav>
 
+      <div class="intro-text align-self-center" data-aos="fade-up">
+        <div class="intro-heading">180 Degrees Consulting</div>
+        <div class="intro-lead-in">at Carnegie Mellon University</div>
+      </div>
+    </header>
 
     <!-- About -->
     <section id="about">
-        <div class="container text-center">
-            <div class="row align-self-center">
-                <div class="col-md-6 pr-lg-5 text-right-sm" data-aos="fade-right">
-                    <h1 class="branded mr-lg-5">Social Impact</h1>
-                    <h1 class="mr-lg-5">is our</h1>
-                    <h1 class="branded mr-lg-5">Bottom Line</h1>
-                </div>
-                <div class="col-md-6 align-self-center text-left-sm" data-aos="fade-left">
-                    <p>
-                        Globally, <span class="branded">180 Degrees Consulting</span> is the world’s largest student
-                        consultancy. With 200+ branches
-                        around the world, we further social good by strategizing <span class="branded">innovative
-                            solutions</span> for the social
-                        sector.
-                    </p>
-                    <p>
-                        We provide socially conscious organizations with <span class="branded">high quality, affordable
-                            services </span>so as to develop innovative, practical and sustainable solutions to their
-                        challenges.
-                    </p>
-                </div>
-            </div>
+      <div class="container text-center">
+        <div class="row align-self-center">
+          <div class="col-md-6 pr-lg-5 text-right-sm" data-aos="fade-right">
+            <h1 class="branded mr-lg-5">Social Impact</h1>
+            <h1 class="mr-lg-5">is our</h1>
+            <h1 class="branded mr-lg-5">Bottom Line</h1>
+          </div>
+          <div
+            class="col-md-6 align-self-center text-left-sm"
+            data-aos="fade-left"
+          >
+            <p>
+              Globally, <span class="branded">180 Degrees Consulting</span> is
+              the world’s largest student consultancy. With 200+ branches around
+              the world, we further social good by strategizing
+              <span class="branded">innovative solutions</span> for the social
+              sector.
+            </p>
+            <p>
+              We provide socially conscious organizations with
+              <span class="branded">high quality, affordable services </span>so
+              as to develop innovative, practical and sustainable solutions to
+              their challenges.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- President -->
     <section id="contrast" class="m-0 p-0">
-        <div class="container-fluid text-left m-0 p-0">
-            <div class="row m-0">
-                <div class="col-md-6 align-self-center m-0 p-0">
-                    <img src="assets/pres1.jpg" width=100% class="d-block m-0">
-                </div>
-                <div id="contrast" class="welcome col-md-6 align-self-center px-5 py-3" data-aos="fade-left">
-                    <h4 class="mb-3">Welcome.</h4>
-                    <p class="align-self-center">
-                        Welcome to 180 Degrees Consulting at Carnegie Mellon! Whether you are a passionate student
-                        considering joining us, a potential client excited in what we offer, or a prospective partner
-                        interested in our talent, I want to thank you for visiting our site!
-                        180 Degrees Consulting is a student-run consultancy for nonprofits and socially-minded
-                        companies, but especially at Carnegie Mellon, we are a young, growing organization with our
-                        people being our single most valuable asset.
-                    </p>
-                    <p class="align-self-center">
-                        We have talented students majoring in business, artificial intelligence, engineering, computer
-                        science, and more. Although we have different career aspirations, academic backgrounds, and
-                        diverse life experiences, we were all ultimately driven to 180 Degrees Consulting because of our
-                        unified passion for social impact.
-                    </p>
-                    <p class="align-self-center">
-                        180 Degrees Consulting at Carnegie Mellon was just established in 2019, but I am very proud to
-                        have seen the rapid growth we have been able to achieve in this short time frame from our
-                        impactful projects to our various corporate events.
-                    </p>
-                    <p class="align-self-center">
-                        I have been blessed to be able to bring 180 Degrees Consulting to the Carnegie Mellon community,
-                        and it has truly been one of the most valuable and rewarding experiences I have had during my
-                        time here. I am so excited to share our community with you, and we look forward to meeting you!
-                    </p>
-                    <h6>Sincerely,</h6>
-                    <img src="assets/signature.png" width="30%">
-                    <h6>Nadia Susanto, President</h6>
-                </div>
-            </div>
+      <div class="container-fluid text-left m-0 p-0">
+        <div class="row m-0">
+          <div class="col-md-6 align-self-center m-0 p-0">
+            <img src="assets/pres1.jpg" width="100%" class="d-block m-0" />
+          </div>
+          <div
+            id="contrast"
+            class="welcome col-md-6 align-self-center px-5 py-3"
+            data-aos="fade-left"
+          >
+            <h4 class="mb-3">Welcome.</h4>
+            <p class="align-self-center">
+              Welcome to 180 Degrees Consulting at Carnegie Mellon! Whether you
+              are a passionate student considering joining us, a potential
+              client excited in what we offer, or a prospective partner
+              interested in our talent, I want to thank you for visiting our
+              site! 180 Degrees Consulting is a student-run consultancy for
+              nonprofits and socially-minded companies, but especially at
+              Carnegie Mellon, we are a young, growing organization with our
+              people being our single most valuable asset.
+            </p>
+            <p class="align-self-center">
+              We have talented students majoring in business, artificial
+              intelligence, engineering, computer science, and more. Although we
+              have different career aspirations, academic backgrounds, and
+              diverse life experiences, we were all ultimately driven to 180
+              Degrees Consulting because of our unified passion for social
+              impact.
+            </p>
+            <p class="align-self-center">
+              180 Degrees Consulting at Carnegie Mellon was just established in
+              2019, but I am very proud to have seen the rapid growth we have
+              been able to achieve in this short time frame from our impactful
+              projects to our various corporate events.
+            </p>
+            <p class="align-self-center">
+              I have been blessed to be able to bring 180 Degrees Consulting to
+              the Carnegie Mellon community, and it has truly been one of the
+              most valuable and rewarding experiences I have had during my time
+              here. I am so excited to share our community with you, and we look
+              forward to meeting you!
+            </p>
+            <h6>Sincerely,</h6>
+            <img src="assets/signature.png" width="30%" />
+            <h6>Nadia Susanto, President</h6>
+          </div>
         </div>
+      </div>
     </section>
-    <br>
+    <br />
     <div class="row">
-        <div class="col-md-6 p-0 m-0" data-aos="fade-right">
-            <section id="contrast" class="my-0 py-5 mx-5 ml-md-5 mr-md-0">
-                <div class="container text-center justify-content-center align-self-center">
-                    <h1>Where we go</h1>
-                    <img class="logo m-2" src="assets/logos/accenturelogo.png">
-                    <img class="logo m-2" src="assets/logos/deloittelogo.png">
-                    <img class="logo m-2" src="assets/logos/eyparthenonlogo.svg">
-                    <img class="logo m-2" src="assets/logos/googlelogo.png">
-                    <img class="logo m-2 p-4" src="assets/logos/applelogo.png">
-                    <img class="logo m-2" src="assets/logos/boalogo.png">
-                    <img class="logo m-2" src="assets/logos/bridgewaterlogo.png">
-                    <img class="logo m-2" src="assets/logos/cantorfitzgeraldlogo.png">
-                    <img class="logo m-2" src="assets/logos/caponelogo.png">
-                    <img class="logo m-2" src="assets/logos/pwclogo.png">
-                </div>
-            </section>
-        </div>
-        <div class="col-md-6 p-0 m-0" data-aos="fade-left">
-            <section class="my-0 py-5 mx-5 mr-md-5 ml-md-0">
-                <div class="container text-center">
-                    <h1>Our Sponsors</h1>
-                    <div class="">
-                        <img class="sponsor" src="assets/logos/accenturelogo.png">
-                        <p>Silver Level</p>
-                    </div>
-                </div>
-            </section>
-        </div>
+      <div class="col-md-6 p-0 m-0" data-aos="fade-right">
+        <section id="contrast" class="my-0 py-5 mx-5 ml-md-5 mr-md-0">
+          <div
+            class="container text-center justify-content-center align-self-center"
+          >
+            <h1>Where we go</h1>
+            <img class="logo m-2" src="assets/logos/accenturelogo.png" />
+            <img class="logo m-2" src="assets/logos/deloittelogo.png" />
+            <img class="logo m-2" src="assets/logos/eyparthenonlogo.svg" />
+            <img class="logo m-2" src="assets/logos/googlelogo.png" />
+            <img class="logo m-2 p-4" src="assets/logos/applelogo.png" />
+            <img class="logo m-2" src="assets/logos/boalogo.png" />
+            <img class="logo m-2" src="assets/logos/bridgewaterlogo.png" />
+            <img class="logo m-2" src="assets/logos/cantorfitzgeraldlogo.png" />
+            <img class="logo m-2" src="assets/logos/caponelogo.png" />
+            <img class="logo m-2" src="assets/logos/pwclogo.png" />
+          </div>
+        </section>
+      </div>
+      <div class="col-md-6 p-0 m-0" data-aos="fade-left">
+        <section class="my-0 py-5 mx-5 mr-md-5 ml-md-0">
+          <div class="container text-center">
+            <h1>Our Sponsors</h1>
+            <div class="">
+              <img class="sponsor" src="assets/logos/accenturelogo.png" />
+              <p>Silver Level</p>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
 
     <div class="row">
-        <div class="col-md-6 p-0" data-aos="fade-right">
-            <section class="my-0 py-5 mx-5 ml-md-5 mr-md-0">
-                <div class="container text-center">
-                    <h1>Join our team</h1>
-                    <a href="recruitment.html">
-                        <button class="recruitButton">Learn about our Recruitment</button>
-                    </a>
-                    <a href="apply.html" target="_blank">
-                        <button class="recruitButton">Apply Now</button>
-                    </a>
-                </div>
-            </section>
-        </div>
-        <div class="col-md-6 p-0" data-aos="fade-left">
-            <section id="contrast" class="my-0 py-5 mx-5 mr-md-5 ml-md-0">
-                <div class="container text-center">
-                    <h1>Work With Us</h1>
-                    <div class="row justify-content-center">
-                        <a href="assets/180 DC Sponsorship Guide.pdf" target="_blank">
-                            <button class="workButton">Sponsorship Guide</button>
-                        </a>
-                        <button class="workButton">Become a Client</button>
-                    </div>
-                </div>
-            </section>
-        </div>
+      <div class="col-md-6 p-0" data-aos="fade-right">
+        <section class="my-0 py-5 mx-5 ml-md-5 mr-md-0">
+          <div class="container text-center">
+            <h1>Join our team</h1>
+            <a href="recruitment.html">
+              <button class="recruitButton">Learn about our Recruitment</button>
+            </a>
+            <a href="apply.html" target="_blank">
+              <button class="recruitButton">Apply Now</button>
+            </a>
+          </div>
+        </section>
+      </div>
+      <div class="col-md-6 p-0" data-aos="fade-left">
+        <section id="contrast" class="my-0 py-5 mx-5 mr-md-5 ml-md-0">
+          <div class="container text-center">
+            <h1>Work With Us</h1>
+            <div class="row justify-content-center">
+              <a href="assets/180 DC Sponsorship Guide.pdf" target="_blank">
+                <button class="workButton">Sponsorship Guide</button>
+              </a>
+              <a href="https://forms.gle/NTEGYN36Lif8W8KE8" target="_blank">
+                <button class="workButton">Become a Client</button>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
 
     <section>
-        <div class="container text-center">
-            <h1>Get in touch!</h1>
-            <div class="justify-content-center">
-                <a href="mailto:cmu180dc@gmail.com" target="_blank" rel="noopener" data-toggle="tooltip"
-                    data-placement="bottom" title="cmu180dc@gmail.com">
-                    <i class="fa fa-envelope fa-2x m-2" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.facebook.com/cmu180dc" target="_blank" rel="noopener" data-toggle="tooltip"
-                    data-placement="bottom" title="Facebook">
-                    <i class="fa fa-facebook-square fa-2x m-2" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.instagram.com/cmu180dc/" target="_blank" rel="noopener" data-toggle="tooltip"
-                    data-placement="bottom" title="@cmu180dc">
-                    <i class="fa fa-instagram fa-2x m-2" aria-hidden="true"></i>
-                </a>
-            </div>
-            <a href="https://lists.andrew.cmu.edu/mailman/listinfo/180dc-dlist" target="_blank">
-                <button class="recruitButton px-5">Join our Mailing List</button>
-            </a>
+      <div class="container text-center">
+        <h1>Get in touch!</h1>
+        <div class="justify-content-center">
+          <a
+            href="mailto:cmu180dc@gmail.com"
+            target="_blank"
+            rel="noopener"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            title="cmu180dc@gmail.com"
+          >
+            <i class="fa fa-envelope fa-2x m-2" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/cmu180dc"
+            target="_blank"
+            rel="noopener"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            title="Facebook"
+          >
+            <i class="fa fa-facebook-square fa-2x m-2" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/cmu180dc/"
+            target="_blank"
+            rel="noopener"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            title="@cmu180dc"
+          >
+            <i class="fa fa-instagram fa-2x m-2" aria-hidden="true"></i>
+          </a>
         </div>
+        <a
+          href="https://lists.andrew.cmu.edu/mailman/listinfo/180dc-dlist"
+          target="_blank"
+        >
+          <button class="recruitButton px-5">Join our Mailing List</button>
+        </a>
+      </div>
     </section>
 
     <footer class="text-center">
-        <hr width=80%>
-        <div class="col">
-            <img src="assets/cmulogo.png" width="150px">
-            <p class="text-center">
-                &copy 180 Degrees Consulting
-            </p>
-        </div>
+      <hr width="80%" />
+      <div class="col">
+        <img src="assets/cmulogo.png" width="150px" />
+        <p class="text-center">&copy 180 Degrees Consulting</p>
+      </div>
     </footer>
     <!--
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="js/scripts.js"></script>
         -->
     <script>
-        $(document).ready(function () {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
     </script>
-
-</body>
-
+  </body>
 </html>
