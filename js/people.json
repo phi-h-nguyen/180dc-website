@@ -1,0 +1,48 @@
+{
+  "tmp": [
+    {
+      "name": "Nadia Susanto",
+      "title": "President",
+      "img": "nsusanto.jpg",
+      "year": 2022,
+      "majors": ["Business Administration", "Human Computer Interaction"],
+      "linkedin": "https://www.linkedin.com/in/nadiasusanto/"
+    },
+    {
+      "name": "Krishna Arjun",
+      "title": "Vice President",
+      "img": "karjun.jpg",
+      "year": 2022,
+      "majors": ["Business Administration", "Statistics"],
+      "linkedin": "https://linkedin.com/in/krishnaarjun"
+    }
+  ],
+  "exec": [
+  ],
+  "consultants": [
+    {
+      "name": "Shifali Kerudi",
+      "title": "",
+      "img": "skerudi.jpg",
+      "year": 2022,
+      "majors": ["Chemical Engineering"],
+      "linkedin": "https://www.linkedin.com/in/shifalikerudi/"
+    },
+    {
+      "name": "Zeke Rong",
+      "title": "",
+      "img": "zrong.jpg",
+      "year": 2023,
+      "majors": ["Information Systems", "Statistics & Machine Learning"],
+      "linkedin": "https://www.linkedin.com/in/zeke-rong/"
+    },
+    {
+      "name": "David Usewick",
+      "title": "",
+      "img": "dusewick.jpg",
+      "year": 2022,
+      "majors": ["Business Administration"],
+      "linkedin": "https://www.linkedin.com/in/david-usewick/"
+    }
+  ]
+}
