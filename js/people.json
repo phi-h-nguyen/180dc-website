@@ -176,7 +176,7 @@
       "img": "soberman.png",
       "year": 2023,
       "majors": ["Business Administration", "Behavioral Economics"],
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/in/sean-oberman"
     },
     {
       "name": "Stephen Tao",
@@ -184,7 +184,7 @@
       "img": "stao.jpg",
       "year": 2024,
       "majors": ["Business Administration"],
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/in/stephenatao"
     },
     {
       "name": "Bharath Kumar",
@@ -192,7 +192,7 @@
       "img": "bkumar.jpg",
       "year": 2024,
       "majors": ["Business Administration"],
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/in/bharath-kumar2458"
     },
     {
       "name": "Aashav Mehta",
@@ -200,7 +200,7 @@
       "img": "amehta.jpg",
       "year": 2022,
       "majors": ["Business Administration"],
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/in/-a-mehta"
     },
     {
       "name": "Roochi Shah",
@@ -208,7 +208,7 @@
       "img": "rshah.jpg",
       "year": 2024,
       "majors": ["Statistics and Machine Learning"],
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/"
     },
     {
       "name": "Leela Jay",
@@ -216,7 +216,7 @@
       "img": "ljay.jpeg",
       "year": 2023,
       "majors": ["Decision Science"],
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/in/leela-jay"
     }
   ]
 }
