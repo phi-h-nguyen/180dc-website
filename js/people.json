@@ -1,5 +1,5 @@
 {
-  "tmp": [
+  "exec": [
     {
       "name": "Nadia Susanto",
       "title": "President",
@@ -15,18 +15,144 @@
       "year": 2022,
       "majors": ["Business Administration", "Statistics"],
       "linkedin": "https://linkedin.com/in/krishnaarjun"
+    },
+    {
+      "name": "Meet Wadhwa",
+      "title": "Director of Professional Development",
+      "img": "mwadhwa.jpg",
+      "year": 2022,
+      "majors": ["Business Administration", "Statistics"],
+      "linkedin": "https://www.linkedin.com/in/meetwadhwa/"
+    },
+    {
+      "name": "Leanne Phillips",
+      "title": "Director of Finance",
+      "img": "lphillips.jpg",
+      "year": 2022,
+      "majors": ["Economics"],
+      "linkedin": "https://www.linkedin.com/in/leanne-phillips-48ba24149/"
     }
-  ],
-  "exec": [
   ],
   "consultants": [
     {
-      "name": "Shifali Kerudi",
-      "title": "",
-      "img": "skerudi.jpg",
+      "name": "Yuxi Shi",
+      "title": "Project Lead",
+      "img": "yshi.jpg",
       "year": 2022,
-      "majors": ["Chemical Engineering"],
-      "linkedin": "https://www.linkedin.com/in/shifalikerudi/"
+      "majors": ["Business Administration"],
+      "linkedin": "https://www.linkedin.com/in/yuxishi/"
+    },
+    {
+      "name": "Grace Recavarren",
+      "title": "Project Lead",
+      "img": "grecavarren.jfif",
+      "year": 2022,
+      "majors": ["Civil Engineering"],
+      "linkedin": "https://www.linkedin.com/in/gracerecavarren/"
+    },
+    {
+      "name": "Daniel Levit",
+      "title": "Project Lead",
+      "img": "dlevit.jpg",
+      "year": 2023,
+      "majors": ["Business Administration"],
+      "linkedin": "https://www.linkedin.com/in/daniel-levit-253683175/"
+    },
+    {
+      "name": "Phi Nguyen",
+      "title": "Webmaster",
+      "img": "pnguyen.jpg",
+      "year": 2023,
+      "majors": ["Information Systems"],
+      "linkedin": "https://www.linkedin.com/in/phi-henry-nguyen/"
+    },
+    {
+      "name": "Adarsh Nalamalapu",
+      "title": "",
+      "img": "analamalapu.jpg",
+      "year": 2023,
+      "majors": ["Computer Science"],
+      "linkedin": "https://www.linkedin.com/in/asrn/"
+    },
+    {
+      "name": "Andres De La Garza",
+      "title": "",
+      "img": "agarza.jpg",
+      "year": 2022,
+      "majors": ["Business Administration"],
+      "linkedin": "https://www.linkedin.com/in/andres-de-la-garza-villarreal-127493199/"
+    },
+    {
+      "name": "Clara Wang",
+      "title": "",
+      "img": "cwang.jpg",
+      "year": 2023,
+      "majors": ["Computer Science"],
+      "linkedin": "https://www.linkedin.com/in/clarawwang2001/"
+    },
+    {
+      "name": "Freddie Dean",
+      "title": "",
+      "img": "fdean.jpg",
+      "year": 2022,
+      "majors": ["Economics"],
+      "linkedin": "https://www.linkedin.com/in/freddie-dean-844611164/"
+    },
+    {
+      "name": "George Gao",
+      "title": "",
+      "img": "ggao.jpg",
+      "year": 2023,
+      "majors": ["Electrical Computer Engineering"],
+      "linkedin": "https://www.linkedin.com/in/george-x-gao/"
+    },
+    {
+      "name": "Isha Patel",
+      "title": "",
+      "img": "ipatel.jpg",
+      "year": 2023,
+      "majors": ["Business Administration"],
+      "linkedin": "https://www.linkedin.com/in/i-patel/"
+    },
+    {
+      "name": "Alyssa Song",
+      "title": "",
+      "img": "asong.jpg",
+      "year": 2023,
+      "majors": ["Business Administration"],
+      "linkedin": "https://www.linkedin.com/in/alyssa-song-915186133/"
+    },
+    {
+      "name": "Nisha Fernandes",
+      "title": "",
+      "img": "nfernandes.jpg",
+      "year": 2024,
+      "majors": ["Business Administration"],
+      "linkedin": "https://www.linkedin.com/in/nisha-fernandes/"
+    },
+    {
+      "name": "Ammu Anil",
+      "title": "",
+      "img": "aanil.jpg",
+      "year": 2024,
+      "majors": ["Business Administration"],
+      "linkedin": "https://www.linkedin.com/in/ammuanil1124/"
+    },
+    {
+      "name": "Anna Li",
+      "title": "",
+      "img": "ali.jpg",
+      "year": 2023,
+      "majors": ["Information Systems"],
+      "linkedin": "https://www.Linkedin.com/in/anna-w-li"
+    },
+    {
+      "name": "Zahir Saiyed",
+      "title": "",
+      "img": "zsaiyed.jpg",
+      "year": 2023,
+      "majors": ["Economics", "Statistics"],
+      "linkedin": "https://linkedin.com/in/zahirsaiyed"
     },
     {
       "name": "Zeke Rong",
@@ -43,6 +169,54 @@
       "year": 2022,
       "majors": ["Business Administration"],
       "linkedin": "https://www.linkedin.com/in/david-usewick/"
+    },
+    {
+      "name": "Sean Oberman",
+      "title": "",
+      "img": "soberman.png",
+      "year": 2023,
+      "majors": ["Business Administration", "Behavioral Economics"],
+      "linkedin": ""
+    },
+    {
+      "name": "Stephen Tao",
+      "title": "",
+      "img": "stao.jpg",
+      "year": 2024,
+      "majors": ["Business Administration"],
+      "linkedin": ""
+    },
+    {
+      "name": "Bharath Kumar",
+      "title": "",
+      "img": "bkumar.jpg",
+      "year": 2024,
+      "majors": ["Business Administration"],
+      "linkedin": ""
+    },
+    {
+      "name": "Aashav Mehta",
+      "title": "",
+      "img": "amehta.jpg",
+      "year": 2022,
+      "majors": ["Business Administration"],
+      "linkedin": ""
+    },
+    {
+      "name": "Roochi Shah",
+      "title": "",
+      "img": "rshah.jpg",
+      "year": 2024,
+      "majors": ["Statistics and Machine Learning"],
+      "linkedin": ""
+    },
+    {
+      "name": "Leela Jay",
+      "title": "",
+      "img": "ljay.jpeg",
+      "year": 2023,
+      "majors": ["Decision Science"],
+      "linkedin": ""
     }
   ]
 }
