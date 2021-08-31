@@ -17,12 +17,12 @@
       "linkedin": "https://linkedin.com/in/krishnaarjun"
     },
     {
-      "name": "Meet Wadhwa",
+      "name": "Daniel Levit",
       "title": "Director of Professional Development",
-      "img": "mwadhwa.jpg",
-      "year": 2022,
-      "majors": ["Business Administration", "Statistics"],
-      "linkedin": "https://www.linkedin.com/in/meetwadhwa/"
+      "img": "dlevit.jpg",
+      "year": 2023,
+      "majors": ["Business Administration"],
+      "linkedin": "https://www.linkedin.com/in/daniel-levit-253683175/"
     },
     {
       "name": "Leanne Phillips",
@@ -31,6 +31,22 @@
       "year": 2022,
       "majors": ["Economics"],
       "linkedin": "https://www.linkedin.com/in/leanne-phillips-48ba24149/"
+    },
+    {
+      "name": "Aashav Mehta",
+      "title": "Director of Partnerships",
+      "img": "amehta.jpg",
+      "year": 2022,
+      "majors": ["Business Administration"],
+      "linkedin": "https://www.linkedin.com/in/-a-mehta"
+    },
+    {
+      "name": "Nisha Fernandes",
+      "title": "Director of Events",
+      "img": "nfernandes.jpg",
+      "year": 2024,
+      "majors": ["Business Administration"],
+      "linkedin": "https://www.linkedin.com/in/nisha-fernandes/"
     }
   ],
   "consultants": [
@@ -59,20 +75,28 @@
       "linkedin": "https://www.linkedin.com/in/daniel-levit-253683175/"
     },
     {
-      "name": "Phi Nguyen",
+      "name": "Anna Li",
       "title": "Webmaster",
+      "img": "ali.jpg",
+      "year": 2023,
+      "majors": ["Information Systems"],
+      "linkedin": "https://www.Linkedin.com/in/anna-w-li"
+    },
+    {
+      "name": "Phi Nguyen",
+      "title": "",
       "img": "pnguyen.jpg",
       "year": 2023,
       "majors": ["Information Systems"],
       "linkedin": "https://www.linkedin.com/in/phi-henry-nguyen/"
     },
     {
-      "name": "Adarsh Nalamalapu",
+      "name": "Meet Wadhwa",
       "title": "",
-      "img": "analamalapu.jpg",
-      "year": 2023,
-      "majors": ["Computer Science"],
-      "linkedin": "https://www.linkedin.com/in/asrn/"
+      "img": "mwadhwa.jpg",
+      "year": 2022,
+      "majors": ["Business Administration", "Statistics"],
+      "linkedin": "https://www.linkedin.com/in/meetwadhwa/"
     },
     {
       "name": "Andres De La Garza",
@@ -123,28 +147,12 @@
       "linkedin": "https://www.linkedin.com/in/alyssa-song-915186133/"
     },
     {
-      "name": "Nisha Fernandes",
-      "title": "",
-      "img": "nfernandes.jpg",
-      "year": 2024,
-      "majors": ["Business Administration"],
-      "linkedin": "https://www.linkedin.com/in/nisha-fernandes/"
-    },
-    {
       "name": "Ammu Anil",
       "title": "",
       "img": "aanil.jpg",
       "year": 2024,
       "majors": ["Business Administration"],
       "linkedin": "https://www.linkedin.com/in/ammuanil1124/"
-    },
-    {
-      "name": "Anna Li",
-      "title": "",
-      "img": "ali.jpg",
-      "year": 2023,
-      "majors": ["Information Systems"],
-      "linkedin": "https://www.Linkedin.com/in/anna-w-li"
     },
     {
       "name": "Zahir Saiyed",
@@ -193,14 +201,6 @@
       "year": 2024,
       "majors": ["Business Administration"],
       "linkedin": "https://www.linkedin.com/in/bharath-kumar2458"
-    },
-    {
-      "name": "Aashav Mehta",
-      "title": "",
-      "img": "amehta.jpg",
-      "year": 2022,
-      "majors": ["Business Administration"],
-      "linkedin": "https://www.linkedin.com/in/-a-mehta"
     },
     {
       "name": "Roochi Shah",
