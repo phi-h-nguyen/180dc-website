@@ -1,7 +1,7 @@
 $.getJSON("js/people.json", function(data) {
 
   const execData = data["exec"];
-  const consultantData = data["consultants"];
+  const consultantData = data["members"];
 
   for (var i = 0; i < execData.length; i++) {
     document.getElementById("execBios").innerHTML += format(execData[i]);
@@ -13,20 +13,12 @@ $.getJSON("js/people.json", function(data) {
 
 });
 
-function formatMajors(majors) {
-  if (majors.length == 2) {
-    return  `<li><span class="font-weight-bold"> Majors:</span> ${majors[0]} and ${majors[1]}</li>`
-  } else {
-    return `<li><span class="font-weight-bold"> Major:</span> ${majors[0]}</li>`
-  }
-}
 
 function format(data) {
   const name = data["name"];
   const title = data["title"];
   const img = data["img"];
   const year = data["year"];
-  const majors = data["majors"];
   const linkedin = data["linkedin"];
 
   return `<div class="col-6 col-md-4 col-lg-3 my-2">
@@ -44,7 +36,6 @@ function format(data) {
           <div class="card-body p-1">
               <p class="card-text">
                   <li>Class of ${year}</li>
-                  ${formatMajors(majors)}
                   <li><a href="${linkedin}" target="_blank" rel="noopener">LinkedIn</a>
                   </li>
               </p>
